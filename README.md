@@ -15,7 +15,7 @@
     ```
 3. Instala la aplicación
     ```bash
-    ({NOMBRE-AMBIENTE-VIRTUAL}) $ pip install .
+    ({NOMBRE-AMBIENTE-VIRTUAL}) $ pip install --editable .
     ```
 
 ## CRUD de Clientes
@@ -51,9 +51,9 @@
     ```
 4. Borrar productos
     ```bash
-    ({NOMBRE-AMBIENTE-VIRTUAL}) $ ventas productos borrar {UID_PRODUCTOS}
+    ({NOMBRE-AMBIENTE-VIRTUAL}) $ ventas productos borrar {UID_PRODUCTO}
     ```
 5. Vender productos
     ```bash
-    ({NOMBRE-AMBIENTE-VIRTUAL}) $ ventas productos vender {UID_PRODUCTOS} {CANTIDAD}
+    ({NOMBRE-AMBIENTE-VIRTUAL}) $ ventas productos vender {UID_PRODUCTO} {CANTIDAD}
     ```
