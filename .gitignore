@@ -1,0 +1,6 @@
+__pycache__/
+env/
+ventas.egg-info/
+*.csv
+clientes/__pycache__/
+productos/__pycache__
